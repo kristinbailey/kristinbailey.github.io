@@ -68,23 +68,21 @@ iframe{
 .header {
     position: relative;
     width: 100%;
-    padding: 150px 0 50px 0;
+    padding-top: 50px;
     min-height: 1px;
     text-align: center;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    border-bottom: 2px solid #308a2a;
+    border-bottom: solid green 1px;
 }
 
 .logo-words-container{
-    margin: 0 auto;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .logo-words-container img{
-    max-width: 90%;
+    width: 100%;
 }
 
 .no-border{
