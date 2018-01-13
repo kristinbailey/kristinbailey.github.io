@@ -4,8 +4,13 @@
 
 
 a{
-    color: #f9da00;
+    color: black;
     font-size: 18px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: unset;
+    color: #904180;
 }
 
 
@@ -51,6 +56,10 @@ iframe{
      color: #308a2a;
  }
 
+ .yellow {
+    color: #fedd17;
+ }
+
 .content{
     font-size: 1.3em;
     text-align: justify;
@@ -68,7 +77,6 @@ iframe{
 .header {
     position: relative;
     width: 100%;
-    padding-top: 50px;
     min-height: 1px;
     text-align: center;
     border-bottom: solid green 1px;
@@ -79,6 +87,7 @@ iframe{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      margin-top: -122px;
 }
 
 .logo-words-container img{
@@ -90,8 +99,8 @@ iframe{
 }
 
 .navbar{
-    background-color: #308a2a;
-    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 5px 5px 5px 20px;
 }
 
 .navbar-brand {
@@ -114,12 +123,17 @@ iframe{
 }
 
 .logo{
-    height: 80px;
-    margin: -10px;
+    height: 65px;
+    margin: -3px;
 }
 
 .photo{
     max-width: 100%;
+}
+
+.photo-food{
+    width: 100%;
+    max-width: 225px;
 }
 
 .section{
