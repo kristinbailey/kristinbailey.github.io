@@ -199,12 +199,30 @@ iframe{
     padding-bottom: 20px;
 }
 
-.hospitals img{
+.hospitals img{ 
     max-width: 100%;
 }
 
 .banner {
     max-width: 100%;
+}
+
+@media (max-width: 991px){
+    .navbar{
+        display: none;
+    } 
+    .logo-words-container {
+        margin-top: 0px;
+    }
+    .photo-food {
+        max-width: unset;
+    }
+    .section {
+        padding-top: 25px;
+    }
+    h1 {
+        font-size: 33px
+    }
 }
 
 
