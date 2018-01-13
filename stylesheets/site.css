@@ -131,11 +131,6 @@ iframe{
     max-width: 100%;
 }
 
-.photo-food{
-    width: 100%;
-    max-width: 225px;
-}
-
 .section{
     padding: 100px 0;
 }
@@ -214,14 +209,11 @@ iframe{
     .logo-words-container {
         margin-top: 0px;
     }
-    .photo-food {
-        max-width: unset;
-    }
     .section {
         padding-top: 25px;
     }
     h1 {
-        font-size: 33px
+        font-size: 33px;
     }
 }
 
