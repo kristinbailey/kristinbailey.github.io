@@ -138,11 +138,11 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #f2745f;
-    background-color: #f2745f;
+    border-color: #308a2a;
+    background-color: #308a2a;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #f2745f;
+	background-color: #308a2a;
 }
 bootstrap.min.css:5
 .navbar-toggle {
@@ -301,7 +301,7 @@ section.services {
 .services .service-item img {
 	max-width: 100%;
 	overflow: hidden;
-	border: 10px solid #eaf0ff;
+	border: 7px solid #e5bd00;
 	border-radius: 50%;
 }
 
