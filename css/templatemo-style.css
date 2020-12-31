@@ -15,9 +15,15 @@ ul {
 }
 
 p {
-	color: #9a9a9a;
+	color: #706f6f;
 	font-size: 14px;
 	line-height: 24px;
+}
+
+.xs-logo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
 }
 
 .border {
@@ -197,7 +203,7 @@ section.cook-delecious {
 }
 
 .cook-delecious .first-image-title {
-	height: 240px;
+	height: 242px;
 	background-color: #e5bd01
 }
 
@@ -207,7 +213,7 @@ section.cook-delecious {
 }
 
 .cook-delecious .second-image-title {
-	height: 240px;
+	height: 242px;
 	background-color: #009b3b
 }
 
@@ -217,7 +223,7 @@ section.cook-delecious {
 	color: white;
 }
 
-.cook-delecious .cook-content h4 {
+.cook-delecious .cook-content h4{
 	margin-top: 0px;
 	margin-bottom: 27px;
 	font-size: 22px;
@@ -273,14 +279,19 @@ section.cook-delecious {
 
 .cook-content .fa {
 	margin-bottom: 12px;
-    margin-top: 15px;
+    margin-top: 35px;
+}
+
+.cook-content p{
+	font-size: 16px;
+	color: white;
 }
 
 
 
 section.services {
 	padding-bottom: 100px;
-	padding-top: 100px;
+	padding-top: 60px;
 }
 
 .services .service-item  a {
@@ -289,6 +300,10 @@ section.services {
 
 .services .service-item {
 	text-align: center;
+}
+
+.service-items {
+	margin-top: 25px;
 }
 
 .services .service-item img {
@@ -305,6 +320,17 @@ section.services {
 	font-family: 'Spectral', serif;
 	font-weight: 600;
 	margin-bottom: 0px;
+}
+
+.services h4{
+	margin-top: 0px;
+	margin-bottom: 27px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center
 }
 
 
@@ -1079,7 +1105,6 @@ section.map #map {
 @media (max-width: 768px) {
 	.navbar-toggle {
 	    position: relative;
-	    float: none;
 	    padding: 9px 10px;
 	    margin-top: 20px!important;
 	    margin-right: 0px;
@@ -1191,4 +1216,12 @@ section.map #map {
 }
 @media (max-width: 480px) {
 
+}
+
+.header-phone {
+	float: left;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #308a2a;
+    margin-left: 10px;
 }
