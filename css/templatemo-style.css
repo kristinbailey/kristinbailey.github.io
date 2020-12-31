@@ -1,11 +1,3 @@
-/*
-
-Victory Template
-
-http://www.templatemo.com/tm-507-victory
-
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -288,6 +280,7 @@ section.cook-delecious {
 
 section.services {
 	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .services .service-item  a {
@@ -403,11 +396,7 @@ section#book-table3 {
 }
 
 #book-table3 .right-info {
-	height: 250px;
-}
-
-#book-table3 .right-info h4 {
-	margin-top: 5px;
+	height: 289px;
 }
 
 section#book-table3 .right-image img {
