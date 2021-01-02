@@ -20,6 +20,10 @@ p {
 	line-height: 24px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #f15680 !important;
+}
+
 .xs-logo {
     text-align: center;
     margin-top: 30px;
@@ -136,11 +140,12 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #308a2a;
-    background-color: #308a2a;
+    border-color: black;
+    background-color: black;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #308a2a;
+	background-color: #f15680;
+	border-color: #f15680;
 }
 bootstrap.min.css:5
 .navbar-toggle {
@@ -154,43 +159,6 @@ bootstrap.min.css:5
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}
-
-
-.banner {
-	padding: 270px 0px;
-	background-image: url(../img/coverPhoto1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	text-align: center;
-}
-
-.banner h4 {
-	margin-top: 0px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	font-size: 15px;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-}
-
-.banner h2 {
-	font-family: 'Spectral', serif;
-	font-size: 44px;
-	font-weight: 600;
-	color: #fff;
-	text-transform: uppercase;
-}
-
-.banner p {
-	color: #fff;
-	font-size: 14px;
-}
-
-.banner .primary-button {
-	margin-top: 30px;
 }
 
 section.cook-delecious {
@@ -433,7 +401,7 @@ section#book-table3 .right-image img {
 section.get-app {
 	background-color: #308a2a;
 	text-align: center;
-	padding: 60px 0px;
+	padding: 60px 10px;
 }
 
 .get-app .heading h2 {
@@ -635,7 +603,7 @@ section.sign-up {
 
 
 footer {
-	background-color: #e5bd00;
+	background-color: #363e50;
 	line-height: 130px;
 	text-align: center;
 }
@@ -676,7 +644,7 @@ footer ul li i {
 }
 
 footer ul li i:hover {
-	background-color: #308a2a;	
+	background-color: #f15680;	
 }
 
 
@@ -1047,6 +1015,10 @@ section.map #map {
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
+
+	section.cook-delecious {
+	    padding: 50px 0px;
+	}
 	.right-info {
 		height: auto;
 		background-color: #fff;
@@ -1074,7 +1046,6 @@ section.map #map {
 		margin-top: 20px;
 	}
 	footer {
-		background-color: #363e50;
 		line-height: 40px;
 		text-align: center;
 	}
@@ -1187,7 +1158,6 @@ section.map #map {
 		margin-top: 20px;
 	}
 	footer {
-		background-color: #363e50;
 		line-height: 40px;
 		text-align: center;
 	}
@@ -1222,6 +1192,6 @@ section.map #map {
 	float: left;
     margin-top: 25px;
     font-size: 20px;
-    color: #308a2a;
+    color: black;
     margin-left: 10px;
 }
